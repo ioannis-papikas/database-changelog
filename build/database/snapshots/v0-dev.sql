@@ -5,17 +5,16 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Table structure for table `version_history`
 --
 
 CREATE TABLE `version_history` (
-  `version_id` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+  `version_id` varchar(50) NOT NULL,
   `started_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `finished_on` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Indexes for dumped tables
