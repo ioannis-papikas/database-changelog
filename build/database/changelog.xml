@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="changelog.xsd">
-    <release version="v0-dev" comment="This is an example release for presentation purposes">
-        <log version="v0-dev-1" date="2017-07-18"
-             comment="Add the first initial record in the database version history."/>
+    <release version="v0-dev" comment="Integrate or import the database version history functionality">
+        <log version="v0-dev-1" date="2017-07-18" comment="Setup version history table and add the first record."/>
     </release>
 </changelog>
