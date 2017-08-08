@@ -1,0 +1,2 @@
+-- This is the snapshot template file for keeping
+-- different versions of your database alive
