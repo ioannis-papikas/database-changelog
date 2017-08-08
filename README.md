@@ -13,3 +13,8 @@ Based on the schema file, it tracks changes daily so that we can re-generate the
 
 ## Database Snapshot
 In addition to the changelog, there is an extra folder called `snapshots` which keep track of the different versions of the database as a full sql dump file.
+
+## Usage
+The logic for using this database version history logger is to sync developers using virtual "tickets" for recording database changes. We can propose the following workflow:
+* Create manually a record on the `version_history` table to get the next version
+* Based on the version that you got, build your changelog sql file, according to the folder structure and your team's template files.
